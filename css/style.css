@@ -1,0 +1,30 @@
+body{
+    background-color: #011F3F;
+    text-align: center;
+}
+.item{
+    font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+a{
+    text-decoration: none;
+    color: purple;
+    
+}
+.icon{
+    color: purple;
+}
+@media(max-width:540px){
+.item{
+    font-size: 1rem;
+}
+}
